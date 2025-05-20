@@ -8,7 +8,7 @@
 
 4. Determine which **`endpoint`** you need (e.g. /check)
 
-5. For the endpoint, determine which *`*`HTTP method`** to use (e.g GET, POST, PUT, etc.)
+5. For the endpoint, determine which **`HTTP method`** to use (e.g GET, POST, PUT, etc.)
 
 6. Determine which **`parameters`** to send to the endpoint (e.g. ipAddress)
 
