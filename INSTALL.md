@@ -1,20 +1,20 @@
+
 # Installation
 
-**Prerequisite: Python 3 must already be installed for your platform!**
-- Windows: https://docs.python.org/3/using/windows.html
-- macOS  : https://docs.python.org/3/using/mac.html
+> [!IMPORTANT]
+> Prerequisite: Python 3 must already be installed for your platform!
+> - Windows: https://docs.python.org/3/using/windows.html
+> - macOS  : https://docs.python.org/3/using/mac.html
 
 ## Instructions
 
 1. Download or clone the code from this github repository
 
-    a. Option 1: Download the zip file and unzip into a new directory
-
-    - https://github.com/richardignacio/ipadb/archive/refs/heads/main.zip
+    a. Option 1: [Download the zip file](https://github.com/richardignacio/ipadb/archive/refs/heads/main.zip)
     
     b. Option 2: If you have git installed, clone the repo.
     
-    - git clone https://github.com/richardignacio/ipadb.git
+    - `git clone https://github.com/richardignacio/ipadb.git`
 
 2. Change (cd) into the repo's root directory (it should have a __requirements.txt__ file)
 

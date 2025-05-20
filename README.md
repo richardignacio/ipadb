@@ -1,30 +1,36 @@
-# ipadb
-## Demo REST API Clients for AbuseIPDB
+# ipadb - Demo REST API Clients for AbuseIPDB
 
-### Check Endpoint
-https://docs.abuseipdb.com/?shell#check-endpoint
+## Check Endpoint
+[API Docs: /check](https://docs.abuseipdb.com/?shell#check-endpoint)
 
-### Bulk Report Endpoint
-https://docs.abuseipdb.com/?python#bulk-report-endpoint
+## Bulk Report Endpoint
+[API Docs: /bulk-report](https://docs.abuseipdb.com/?python#bulk-report-endpoint)
 
-### API Clients
+## API Clients
 
-**Python**
+### Python
 
-- ipadb.py  : Python Check endpoint client, accepts single IP address argument
-- ipadb2.py : Python Check endpoint client, accepts multiple IP address arguements. Implements functions.
-- ipadb_bulk_report.py: Python Bulk Report endpoint, accepts single file name argument.
+| Name                 | Description                                                          |
+| -------------------- | -------------------------------------------------------------------- |
+| [ipadb.py](./ipadb.py)             | Python Check endpoint client, accepts single IP address argument     |
+| [ipadb2.py](./ipadb2.py)            | Python Check endpoint client, accepts multiple IP address arguements |
+| [ipadb_bulk_report.py](./ipadb_bulk_report.py) | Python Bulk Report endpoint, accepts single file name argument       |
 
-**Bash**
 
-- ipadb.sh  : Bash Check endpoint client, accepts single IP address argument.
 
-**Curl**
+### Bash
 
-- curl.cmd : Example curl commands for submitting to the Check and Bulk Report endpoints
+- [ipadb.sh](./ipadb.sh) : Bash Check endpoint client, accepts single IP address argument.
+
+### Curl
+
+- [curl-cmds.md](./curl-cmds.md) : Example curl commands for submitting to the Check and Bulk Report endpoints
 
 ### Test Data
 
-- ip_list.txt: Multiple IP addresses, one per line.
-- report.csv : Multiple IP addresses, one per line. Meets the Bulk Report endpoint csv requirements.
+| Name                 | Description                                                          |
+| -------------------- | -------------------------------------------------------------------- |
+| [ip_list.txt](./ip_list.txt) | Python Check endpoint client, accepts single IP address argument     |
+| [report.csv](./report.csv)   | Multiple IP addresses, one per line. Meets the Bulk Report endpoint csv requirements |
+
 
